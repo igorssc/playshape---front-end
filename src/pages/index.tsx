@@ -5,12 +5,12 @@ const IndexPage: NextPage = () => {
   const [isDark, setIsDark] = React.useState(false)
 
   React.useEffect(() => {
-    const preferDarkQuery = '(prefers-color-scheme: dark)'
-    const mql = window.matchMedia(preferDarkQuery)
-    const supportsColorSchemeQuery = mql.media === preferDarkQuery
+    const colorSchemeQuery =
+      window.matchMedia &&
+      window.matchMedia('(prefers-color-scheme: dark)').matches
 
-    setIsDark(supportsColorSchemeQuery)
-  })
+    setIsDark(colorSchemeQuery)
+  }, [])
   return (
     <>
       {isDark
