@@ -1,11 +1,7 @@
 .carrouselContent {
   margin: 0 auto 3rem auto;
-  padding: 0 3rem;
+  padding: 0 1.7rem;
   max-width: var(--max-width-content);
-}
-
-.ball {
-  padding: 0 1rem;
 }
 
 .ball:focus {
@@ -42,7 +38,11 @@
 
 @media (max-width: 576px) {
   .ball > div {
-    width: 8rem;
-    height: 8rem;
+    width: 7rem;
+    height: 7rem;
+  }
+
+  .ball > div > h3 {
+    font-size: 1rem;
   }
 }
