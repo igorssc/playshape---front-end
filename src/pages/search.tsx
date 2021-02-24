@@ -81,6 +81,7 @@ const SearchPage: NextPage = () => {
           </div>
         </header>
         <FeaturedProducts title="" />
+        <hr className="dark:border-gray-800" />
       </Layout>
     </>
   )
