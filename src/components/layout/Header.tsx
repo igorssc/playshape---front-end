@@ -7,7 +7,7 @@ import Link from 'next/link'
 const Header: React.FC = () => {
   return (
     <>
-      <header className={styles.headerContainer}>
+      <header className={`${styles.headerContainer} dark:bg-gray-900`}>
         <Link href="/">
           <img src="PlayShape_v1.png" alt="Logo" />
         </Link>

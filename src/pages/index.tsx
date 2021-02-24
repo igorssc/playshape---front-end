@@ -22,7 +22,7 @@ const IndexPage: NextPage = () => {
         <InitialMessage />
         <CarrouselIndex />
         <FeaturedProducts title="Mais vendidos na semana" />
-        <hr />
+        <hr className="dark:border-gray-800" />
         <FeaturedProducts title="Vendidos por lojas mais bem avaliadas" />
         <Newsletter />
       </Layout>

@@ -3,7 +3,7 @@ import styles from '@styles/components/Footer.module.css'
 
 const Footer: React.FC = () => {
   return (
-    <div className={styles.footerContainer}>
+    <div className={`${styles.footerContainer} dark:bg-transparent`}>
       <div>
         <img
           src="todos_animado_550_50.gif"

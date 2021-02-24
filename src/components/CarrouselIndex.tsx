@@ -8,7 +8,7 @@ function SampleNextArrow(props) {
   const { className, style, onClick } = props
   return (
     <div
-      className={className}
+      className={`${className} dark:invert-0`}
       style={{ ...style, display: 'block', filter: 'invert(1)' }}
       onClick={onClick}
     />
@@ -19,7 +19,7 @@ function SamplePrevArrow(props) {
   const { className, style, onClick } = props
   return (
     <div
-      className={className}
+      className={`${className} dark:invert-0`}
       style={{ ...style, display: 'block', filter: 'invert(1)' }}
       onClick={onClick}
     />
@@ -80,43 +80,43 @@ const CarrouselIndex: React.FC = () => {
   return (
     <div className={styles.carrouselContent}>
       <Slider {...settings}>
-        <div className={styles.ball}>
-          <div>
+        <div className={`${styles.ball}`}>
+          <div className="dark:bg-gray-800">
             <h3>Vitaminas</h3>
           </div>
         </div>
-        <div className={styles.ball}>
-          <div>
+        <div className={`${styles.ball}`}>
+          <div className="dark:bg-gray-800">
             <h3>Proteínas</h3>
           </div>
         </div>
-        <div className={styles.ball}>
-          <div>
+        <div className={`${styles.ball}`}>
+          <div className="dark:bg-gray-800">
             <h3>Termogênicos</h3>
           </div>
         </div>
-        <div className={styles.ball}>
-          <div>
+        <div className={`${styles.ball}`}>
+          <div className="dark:bg-gray-800">
             <h3>Aminoácidos</h3>
           </div>
         </div>
-        <div className={styles.ball}>
-          <div>
+        <div className={`${styles.ball}`}>
+          <div className="dark:bg-gray-800">
             <h3>Fitoterápicos</h3>
           </div>
         </div>
-        <div className={styles.ball}>
-          <div>
+        <div className={`${styles.ball}`}>
+          <div className="dark:bg-gray-800">
             <h3>Vegetariano</h3>
           </div>
         </div>
-        <div className={styles.ball}>
-          <div>
+        <div className={`${styles.ball}`}>
+          <div className="dark:bg-gray-800">
             <h3>Vegano</h3>
           </div>
         </div>
-        <div className={styles.ball}>
-          <div>
+        <div className={`${styles.ball}`}>
+          <div className="dark:bg-gray-800">
             <h3>Carboidratos</h3>
           </div>
         </div>

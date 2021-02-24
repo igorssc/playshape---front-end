@@ -16,3 +16,7 @@ body {
   --color-primary-yellow: #dbac00;
   --bg-primary-dark: #262626;
 }
+
+.dark-mode .dark\:invert-0 {
+  filter: invert(0) !important;
+}

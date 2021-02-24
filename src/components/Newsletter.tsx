@@ -3,7 +3,7 @@ import styles from '@styles/components/Newsletter.module.css'
 
 const Newsletter: React.FC = () => {
   return (
-    <div className={styles.newsletterContainer}>
+    <div className={`${styles.newsletterContainer} dark:bg-gray-900`}>
       <div>
         <h1>Receba ofertas e descontos exclusivos</h1>
         <form action="/">

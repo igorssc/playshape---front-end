@@ -32,7 +32,7 @@ const FeaturedProducts: React.FC<Props> = ({ title }) => {
   return (
     <div className={styles.FeaturedProductsContent}>
       <h1>{title}</h1>
-      <div className={styles.products}>
+      <div className={`${styles.products}`}>
         {array.map((index, key) => {
           return <Product key={key} />
         })}
