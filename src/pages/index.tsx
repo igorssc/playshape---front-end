@@ -21,8 +21,9 @@ const IndexPage: NextPage = () => {
       <Layout title="Home">
         <InitialMessage />
         <CarrouselIndex />
-        {/* <FeaturedProducts title="Mais vendidos na semana" />
-        <FeaturedProducts title="Vendidos por lojas mais bem avaliadas" /> */}
+        <FeaturedProducts title="Mais vendidos na semana" />
+        <hr />
+        <FeaturedProducts title="Vendidos por lojas mais bem avaliadas" />
         <Newsletter />
       </Layout>
     </>
