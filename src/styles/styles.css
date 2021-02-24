@@ -24,3 +24,9 @@ body {
 .dark-mode .dark\:invert-1 {
   filter: invert(1) !important;
 }
+
+@media (max-width: 768px) {
+  .dark-mode .dark\:md-left-0 {
+    left: 0 !important;
+  }
+}
