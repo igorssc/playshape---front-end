@@ -1,9 +1,10 @@
 import * as React from 'react'
 import Head from 'next/head'
+import Header from './Header'
+import Footer from '@components/Footer'
 
 export interface Props {
   title?: string
-  className?: string | Record<string, unknown>
 }
 
 const Layout: React.FC<Props> = ({ title, children }) => {
@@ -12,7 +13,9 @@ const Layout: React.FC<Props> = ({ title, children }) => {
       <Head>
         <title>{title}</title>
       </Head>
+      <Header />
       {children}
+      <Footer />
     </>
   )
 }

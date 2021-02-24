@@ -1,0 +1,40 @@
+.headerContainer {
+  background-color: var(--bg-primary-yellow);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.headerContainer > img {
+  width: 12rem;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.headerContainer > h1 {
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+}
+
+.headerContainer > h2 {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.headerContainer > form input {
+  width: 25rem;
+  margin: 0 15px;
+}
+
+.headerContainer > form button {
+  background-color: var(--bg-primary-dark);
+  border: 1px solid var(--bg-primary-dark);
+  color: white;
+  padding: 5px 40px;
+}
+
+.headerContainer > form button:hover {
+  transition: 0.2s;
+  background-color: var(--bg-secondary-dark);
+}

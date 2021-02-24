@@ -1,0 +1,26 @@
+.initialMessageContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  max-width: var(--max-width-content);
+  margin: 3rem auto;
+}
+
+.initialMessageContainer > div > svg {
+  width: 25rem;
+  height: auto;
+  margin: auto;
+}
+
+.description {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.description > h1 {
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 15px;
+}

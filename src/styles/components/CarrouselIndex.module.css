@@ -1,0 +1,33 @@
+.carrouselContent {
+  margin: auto;
+  max-width: var(--max-width-content);
+}
+
+.ball {
+  padding: 0 1rem;
+}
+
+.ball:focus {
+  outline: none;
+}
+
+.ball > div {
+  background: var(--bg-primary-yellow);
+  display: flex;
+  width: 12rem;
+  height: 12rem;
+  margin: auto;
+  align-items: center;
+  border-radius: 100%;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.ball > div:hover {
+  filter: brightness(0.9);
+}
+
+.ball > div > h3 {
+  font-size: 1.2rem;
+  margin: auto;
+}

@@ -1,0 +1,11 @@
+.searchContainer {
+  max-width: var(--max-width-content);
+  margin: 4rem auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.searchContainer > h1 {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}

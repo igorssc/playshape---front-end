@@ -1,0 +1,21 @@
+.footerContainer {
+  background-color: var(--bg-primary-dark);
+  color: #fff;
+  font-size: 0.7rem;
+  text-align: justify;
+  padding-bottom: 1rem;
+}
+
+.footerContainer > div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: var(--max-width-content);
+  margin: auto;
+}
+
+.footerContainer > div > img {
+  margin: 1.5rem 0;
+  height: 3rem;
+  width: auto;
+}

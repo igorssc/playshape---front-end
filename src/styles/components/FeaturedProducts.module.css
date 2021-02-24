@@ -1,0 +1,58 @@
+.FeaturedProductsContent {
+  max-width: var(--max-width-content);
+  margin: 3rem auto;
+}
+
+.FeaturedProductsContent > h1 {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 4rem;
+  text-align: center;
+}
+
+.products > div > h1 {
+  font-weight: 500;
+  margin: 1rem auto 0.5rem auto;
+}
+
+.products > div > h2 {
+  font-size: 0.8rem;
+  margin-bottom: 0.7rem;
+}
+
+.products > div > h3 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: var(--color-primary-yellow);
+  margin-bottom: 1rem;
+}
+
+.products > div > h4 {
+  text-decoration: line-through;
+}
+
+.products > div > p {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.products > div > img {
+  margin: auto;
+}
+
+.products > div > a {
+  background-color: var(--bg-primary-dark);
+  padding: 0.5rem 5rem;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.products > div > a:hover {
+  filter: brightness(0.9);
+}

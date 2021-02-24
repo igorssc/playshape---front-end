@@ -6,7 +6,6 @@ import NProgress from 'nprogress'
 import '@styles/tailwind.css'
 import '@styles/nprogress.css'
 import '../styles/styles.css'
-import GlobalStyle from '@styles/Global'
 
 Router.events.on('routeChangeStart', () => NProgress.start())
 Router.events.on('routeChangeComplete', () => NProgress.done())
@@ -16,7 +15,6 @@ const App: React.FC<AppProps> = ({ Component, pageProps }) => {
   return (
     <>
       <Component {...pageProps} />
-      <GlobalStyle />
     </>
   )
 }

@@ -1,0 +1,45 @@
+.newsletterContainer {
+  background-color: var(--bg-primary-yellow);
+  padding: 3rem 0;
+}
+
+.newsletterContainer > div {
+  max-width: var(--max-width-content);
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.newsletterContainer > div > h1 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.newsletterContainer > div > form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.newsletterContainer > div > form > div > input {
+  padding: 0.3rem 1rem;
+  margin: 0 0.5rem;
+  width: 20rem;
+}
+
+.newsletterContainer > div > form > div > input:focus {
+  outline: none;
+}
+
+.newsletterContainer > div > form > button {
+  background-color: var(--bg-primary-dark);
+  transition: 0.2s;
+  padding: 0.5rem 4rem;
+  margin: 1rem 0 0;
+  color: white;
+}
+
+.newsletterContainer > div > form > button:hover {
+  filter: brightness(0.9);
+}
