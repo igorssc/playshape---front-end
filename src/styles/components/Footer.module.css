@@ -10,12 +10,17 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: var(--max-width-content);
+  max-width: var(--max-width-content);
   margin: auto;
 }
 
 .footerContainer > div > img {
   margin: 1.5rem 0;
-  height: 3rem;
+  max-height: 3rem;
   width: auto;
+  padding: 0 1.5rem;
+}
+
+.footerContainer > div > p {
+  margin: 0 1.5rem;
 }

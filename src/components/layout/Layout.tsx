@@ -15,7 +15,7 @@ const Layout: React.FC<Props> = ({ title, children }) => {
       </Head>
       <Header />
       {/* {children} */}
-      {/* <Footer /> */}
+      <Footer />
     </>
   )
 }
