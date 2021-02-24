@@ -21,7 +21,7 @@ const Header: React.FC = () => {
             <input
               type="search"
               name="q"
-              className="py-2 text-sm bg-white rounded pl-10 pr-3 focus:outline-none focus:bg-white focus:text-gray-900"
+              className="py-2 text-sm bg-white rounded focus:outline-none focus:bg-white focus:text-gray-900"
               placeholder="Buscar produtos"
               autoComplete="off"
             />
