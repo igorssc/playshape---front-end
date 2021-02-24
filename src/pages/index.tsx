@@ -20,8 +20,8 @@ const IndexPage: NextPage = () => {
     <>
       <Layout title="Home">
         <InitialMessage />
-        {/* <CarrouselIndex />
-        <FeaturedProducts title="Mais vendidos na semana" />
+        <CarrouselIndex />
+        {/* <FeaturedProducts title="Mais vendidos na semana" />
         <FeaturedProducts title="Vendidos por lojas mais bem avaliadas" /> */}
         <Newsletter />
       </Layout>

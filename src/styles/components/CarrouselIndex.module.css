@@ -1,5 +1,6 @@
 .carrouselContent {
-  margin: auto;
+  margin: 0 auto 3rem auto;
+  padding: 0 3rem;
   max-width: var(--max-width-content);
 }
 
@@ -14,8 +15,8 @@
 .ball > div {
   background: var(--bg-primary-yellow);
   display: flex;
-  width: 12rem;
-  height: 12rem;
+  width: 10rem;
+  height: 10rem;
   margin: auto;
   align-items: center;
   border-radius: 100%;
@@ -30,4 +31,18 @@
 .ball > div > h3 {
   font-size: 1.2rem;
   margin: auto;
+}
+
+@media (max-width: 768px) {
+  .ball > div {
+    width: 9rem;
+    height: 9rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .ball > div {
+    width: 8rem;
+    height: 8rem;
+  }
 }
