@@ -11,7 +11,9 @@ const Newsletter: React.FC = () => {
             <input type="text" placeholder="Nome" />
             <input type="text" placeholder="Email" />
           </div>
-          <button type="submit">Desejo receber notícias e ofertas</button>
+          <button type="submit" className="dark:bg-gray-600">
+            Desejo receber notícias e ofertas
+          </button>
         </form>
       </div>
     </div>

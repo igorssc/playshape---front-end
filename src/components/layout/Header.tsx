@@ -9,7 +9,7 @@ const Header: React.FC = () => {
     <>
       <header className={`${styles.headerContainer} dark:bg-gray-900`}>
         <Link href="/">
-          <img src="PlayShape_v1.png" alt="Logo" />
+          <img src="PlayShape_v1.png" alt="Logo" className="dark:invert-1" />
         </Link>
         <h1>Suplementação a um clique de distância</h1>
         <h2>Descubra lojas de suprimentos perto de você</h2>
@@ -25,7 +25,7 @@ const Header: React.FC = () => {
               placeholder="Buscar produtos"
               autoComplete="off"
             />
-            <button type="submit" className="rounded">
+            <button type="submit" className="rounded dark:bg-gray-600">
               Buscar
             </button>
           </div>

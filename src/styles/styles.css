@@ -20,3 +20,7 @@ body {
 .dark-mode .dark\:invert-0 {
   filter: invert(0) !important;
 }
+
+.dark-mode .dark\:invert-1 {
+  filter: invert(1) !important;
+}
