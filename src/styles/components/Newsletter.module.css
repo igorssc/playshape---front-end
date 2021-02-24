@@ -43,3 +43,31 @@
 .newsletterContainer > div > form > button:hover {
   filter: brightness(0.9);
 }
+
+@media (max-width: 768px) {
+  .newsletterContainer > div {
+    padding: auto 1rem;
+    margin: 0 1rem;
+  }
+
+  .newsletterContainer > div > h1 {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .newsletterContainer > div > form > div {
+    width: 100%;
+  }
+
+  .newsletterContainer > div > form > div > input {
+    display: block;
+    padding: 0.3rem 1rem;
+    margin: 0.4rem auto;
+    width: 100%;
+  }
+
+  .newsletterContainer > div > form > button {
+    width: 100%;
+    padding: 0.5rem 2rem;
+  }
+}
