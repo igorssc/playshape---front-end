@@ -67,6 +67,13 @@ const CarrouselIndex: React.FC = () => {
           slidesToShow: 2,
           slidesToScroll: 2
         }
+      },
+      {
+        breakpoint: 350,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
       }
     ]
   }

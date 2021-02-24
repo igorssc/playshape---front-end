@@ -37,6 +37,10 @@
 }
 
 @media (max-width: 576px) {
+  .carrouselContent {
+    padding: 0 3rem;
+  }
+
   .ball > div {
     width: 7rem;
     height: 7rem;
