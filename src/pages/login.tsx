@@ -14,7 +14,9 @@ const SearchPage: NextPage = () => {
             <div>
               <Image />
               <h1>Novo por aqui? Crie sua conta</h1>
-              <button className={styles.registerButton}>Criar conta</button>
+              <button className={`${styles.registerButton} dark:bg-gray-800`}>
+                Criar conta
+              </button>
             </div>
             <div className={styles.line}></div>
             <div>
@@ -22,22 +24,37 @@ const SearchPage: NextPage = () => {
               <form action="">
                 <div>
                   <label htmlFor="email">Email</label>
-                  <input id="email" name="email" type="text" />
+                  <input
+                    className="dark:text-gray-900"
+                    id="email"
+                    name="email"
+                    type="text"
+                  />
                   <label htmlFor="password">Senha</label>
-                  <input id="password" name="password" type="password" />
+                  <input
+                    className="dark:text-gray-900"
+                    id="password"
+                    name="password"
+                    type="password"
+                  />
                 </div>
                 <div>
                   <h3>Esqueci a senha</h3>
-                  <button className={styles.loginButtonGoogle}>
+                  <button
+                    className={`${styles.loginButtonGoogle} dark:bg-gray-900`}
+                  >
                     <img src="1200px-Google__G__Logo.svg.png"></img>Login com
                     Google
                   </button>
-                  <button className={styles.loginButton}>Login</button>
+                  <button className={`${styles.loginButton} dark:bg-gray-800`}>
+                    Login
+                  </button>
                 </div>
               </form>
             </div>
           </div>
         </div>
+        <hr className="dark:border-gray-800" />
       </Layout>
     </>
   )

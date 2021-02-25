@@ -102,3 +102,61 @@
   border-left: 1px solid black;
   height: 100%;
 }
+
+@media (max-width: 992px) {
+  .loginContainer > div {
+    grid-template-columns: 10fr 1fr 10fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .loginContainer > div {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .loginContainer > div > div {
+    padding: initial 1rem;
+    width: 100%;
+  }
+
+  .registerButton,
+  .loginButton,
+  .loginButtonGoogle {
+    margin-top: 1rem;
+    max-width: 100%;
+  }
+
+  .loginContainer svg {
+    width: 15rem;
+    max-width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 2rem;
+  }
+
+  .loginContainer > div > div:last-child {
+    width: 100%;
+    padding: initial 1rem;
+  }
+
+  .loginContainer > h1 {
+    margin-bottom: 1rem;
+  }
+
+  .loginButtonGoogle {
+    order: 1;
+  }
+
+  .loginButton {
+    margin-top: 3rem;
+  }
+
+  .loginContainer > div > div:last-child > form > div:last-child {
+    margin-bottom: 2rem;
+  }
+
+  .loginContainer > div > div:last-child > form > div > input {
+    padding: 0.3rem;
+  }
+}
